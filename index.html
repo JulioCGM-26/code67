@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeClashArena67</title>
+    <link rel="stylesheet" href="iconos/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="cargando" class="cargando">
+        <p>Cargando...</p>
+    </div>
+
+    <main class="contenedor">
+        <header class="nav">
+            <h1><i class="fa-solid fa-crown"></i>CodeClashArena67</h1>
+
+            <div class="stats">
+                <span id="contador">0 / 12</span>
+                <span id="puntos">0 pts</span>
+            </div>
+        </header>
+
+        <section class="filtros">
+            <select id="categoria">
+                <option value="Todos">Todos</option>
+                <option value="Algoritmos">Algoritmos</option>
+                <option value="Desarrollo Web">Desarrollo Web</option>
+                <option value="Bases de Datos">Bases de Datos</option>
+                <option value="Ciberseguridad">Ciberseguridad</option>
+            </select>
+
+            <button class="facil" id="Facil">Fácil</button>
+            <button class="medio" id="Medio">Medio</button>
+            <button class="dificil" id="Dificil">Difícil</button>
+        </section>
+
+        <section class="tarjetas" id="tarjetas"></section>
+    </main>
+
+    <footer class="footer">
+        <div class="barra">
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <span>Ranking</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>Inicio</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <span>Usuario</span>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-grin-tears"></i>
+                <span>Otros</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="estilos.js"></script>
+</body>
+</html>
